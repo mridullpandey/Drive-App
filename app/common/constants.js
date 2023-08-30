@@ -83,6 +83,7 @@ exports.apiFailureMessage = {
 
 
 exports.apiEndPoints = {
+    getFile:`/drive/getFile`,
 
 }
 
