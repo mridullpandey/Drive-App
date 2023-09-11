@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 4090;
 const http = require('http').Server(app);
 global.io = require('socket.io')(http);
 require('./config/express')(app);
-app.use("/api/v1/templateService", require("./routes"));
+app.use("/api/v1/driveApp", require("./routes"));
 
 Promise.all([]
 ).then(listen).catch((err) => {

@@ -83,7 +83,10 @@ exports.apiFailureMessage = {
 
 
 exports.apiEndPoints = {
-    getFile:`/drive/getFile`,
+    getFile:`/drive-open-file`,
+    // driveLoginUrl:`/drive-login-url`,
+    driveCallbackUrl:`/drive-callback-url`,
+    // registerApp:`/drive-register-app`
 
 }
 

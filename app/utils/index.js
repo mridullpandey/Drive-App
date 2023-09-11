@@ -91,6 +91,5 @@ class Utils {
         if (newInvoiceNo === "") return `Unknown${Date.now()}`;
         else return newInvoiceNo;
     }
-
 }
 exports.Utils = Utils;

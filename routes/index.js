@@ -11,5 +11,12 @@ router.get("/", function (req, res) {
   );
 })
 router.post(apiEndPoints.getFile, DriveController.getfile)
+router.get(apiEndPoints.driveLoginUrl, DriveController.driveLoginUrl)
+router.get(apiEndPoints.driveCallbackUrl, DriveController.driveCallbackUrl)
+router.get(apiEndPoints.registerApp, DriveController.registerApp)
+
+
+
+
 // router.get(apiEndPoints.list,validateAuthToken,DriveController.getAll)
 module.exports = router;
