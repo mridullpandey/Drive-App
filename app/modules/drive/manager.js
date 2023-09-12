@@ -1,14 +1,7 @@
-const { Utils } = require('../../utils/index');
 const { Log } = require("../../../logging/index");
-const _ = require(`lodash`)
-const HttpService = require("../../services/httpService")
-const {
-    httpConstants
-} = require("../../common/constants")
-const config = require("../../../config/index");
 const { google } = require('googleapis');
 const TAG = __filename;
-
+//TODO: need to relocate this to env
 const CLIENT_ID = '488822753460-fl701frojsq3cmr31udoe4pmmg830i4c.apps.googleusercontent.com';
 const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'http://localhost:4090/api/v1/driveApp/drive-callback-url';
